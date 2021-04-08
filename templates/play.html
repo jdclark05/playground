@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Play</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/style.css') }}">
+</head>
+<body>
+    <table class="table">
+        <tr>
+            {% for x in range(0, 3) %}
+            <td><div class="box" style="background-color: blue;"></div></td>
+            {% endfor %}
+        </tr>
+    </table>
+</body>
+</html>

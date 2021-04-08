@@ -1,0 +1,14 @@
+.table {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+td > .box {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    height: 75px;
+    width: 75px;
+}
